@@ -2,16 +2,17 @@
 import './App.css';
 
 import Header from './components/Header';
-import Paragraphs from './components/Paragraphs';
+import Gallery from './components/Gallery';
 import Footer from './components/Footer';
+
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Paragraphs />
+      <Gallery />
       <Footer />
-    </div>
+    </div >
   );
 }
 
